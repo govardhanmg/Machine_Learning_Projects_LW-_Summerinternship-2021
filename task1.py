@@ -7,7 +7,7 @@ os.system("tput setaf 3")
 print("\t  \t \t welcome to ML Salary Predictor App")
 print()
 
-db = pd.read_csv('salary.csv')
+db = pd.read_csv('SalaryData.csv')
 y = db['Salary']
 x = db['YearsExperience']
 x = x.values.reshape(30,1)
